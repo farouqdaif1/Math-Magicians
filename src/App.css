@@ -8,6 +8,7 @@
   background-color: #8b8989a6;
   width: 100%;
 }
+
 .result p {
   font-size: 20px;
   margin-left: 350px;
@@ -16,9 +17,11 @@
   font-weight: 600;
   color: #fff;
 }
+
 .button {
   display: block;
 }
+
 button {
   width: 25%;
   height: 50px;
@@ -28,9 +31,11 @@ button {
   border: 1px solid rgb(214, 212, 212, 0.6);
   cursor: pointer;
 }
+
 .two {
   width: 50%;
 }
+
 .color {
   background-color: #ff8b3d;
 }
