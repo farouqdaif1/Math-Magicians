@@ -1,21 +1,39 @@
-.container {
-  max-width: 400px;
-  margin: auto;
-}
-
 .result {
   height: 60px;
   background-color: #8b8989a6;
   width: 100%;
 }
 
+p {
+  margin: 50px;
+  display: flex;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
 .result p {
   font-size: 20px;
-  margin-left: 305px;
   margin-top: 50px;
   padding: 30px;
   font-weight: 600;
   color: #fff;
+}
+
+.cal {
+  width: 50%;
+  padding: 100px;
+}
+
+.calculator-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  height: 80vh;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: right;
+  border: 2px solid black;
 }
 
 .button {
@@ -38,4 +56,52 @@ button {
 
 .color {
   background-color: #ff8b3d;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.nav-link {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.line {
+  border: 1px solid black;
+}
+
+li {
+  margin: 5px;
+  color: rgb(0, 132, 255);
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.quotes-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.cal-body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.cal-bodyh2 {
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
 }
