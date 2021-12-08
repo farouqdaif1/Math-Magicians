@@ -16,7 +16,7 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route path="/home" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/Calculate" component={Calculate} />
           <Route path="/Quote" component={Quote} />
         </Switch>

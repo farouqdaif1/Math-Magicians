@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap");
+
 .result {
   height: 60px;
   background-color: #8b8989a6;
@@ -93,6 +95,7 @@ h3 {
   margin-top: 100px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
+  font-size: 38px;
 }
 
 .cal-body {
