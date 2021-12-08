@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Link](https://deploy-preview-5--math-calcoulator.netlify.app/)
+[Link](https://math-calcoulator.netlify.app/)
 
 ## Getting Started
 
