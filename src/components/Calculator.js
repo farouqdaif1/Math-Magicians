@@ -14,7 +14,7 @@ const Calculator = () => {
   };
 
   return (
-    <div>
+    <div className="cal">
       <div className="result">
         <p>
           {total}
